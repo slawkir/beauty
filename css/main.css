@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika&family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+}
+
+input, button, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav, main, footer, header, aside, section {
+  display: block;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 57%;
+  margin: 0 auto;
+}
+
+.header__menu-top {
+  background: #EFEFEF;
+}
+.header__menu-top .menu-list {
+  max-width: 447px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header__menu-top .menu-list .menu__item {
+  font-weight: normal;
+  line-height: 16px;
+  color: #333333;
+}
+
+.header__row-middle {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header__row-middle .container__logo {
+  display: flex;
+  align-items: center;
+}
+.header__row-middle .container__logo .container__logo__img {
+  width: 80px;
+  height: 80px;
+}
+.header__row-middle .container__logo span {
+  color: #66C05D;
+  font-size: 36px;
+  margin-left: 20px;
+}
+.header__row-middle .contacts {
+  width: 337px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__row-middle .contacts a {
+  font-size: 16px;
+}
+.header__row-middle .contacts button {
+  width: 170px;
+  padding: 12px 26px;
+  background: #FFFFFF;
+  border: 2px solid #66C05D;
+  border-radius: 40px;
+}
+
+.header__menu-bottom {
+  border-top: 1px solid #EFEFEF;
+}
+.header__menu-bottom .menu-list {
+  max-width: 675px;
+  height: 79px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu-bottom .menu-list .menu__item {
+  font-weight: normal;
+  line-height: 16px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=main.css.map */
