@@ -39,24 +39,38 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.3);
   position: absolute;
-  left: 725px;
+  right: 336px;
   top: -117px;
 }
 .ellipse2 {
-  width: 584px;
-  height: 584px;
+  width: 677px;
+  height: 677px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.4);
   position: absolute;
-  left: 863px;
-  top: 20px;
+  right: 427px;
+  top: -37px;
 }
 
 .armchair {
 width: 584;
 height: 584px;
 position: absolute;
-left: 863px;
+right: 473px;
 top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .ellipse1 {
+    right: 36px;
+  }
+  .ellipse2 { 
+    right: 127px;
+  }
+  
+  .armchair {
+  right: 173px;
+
+  }
 }
 

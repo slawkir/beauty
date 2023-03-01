@@ -114,8 +114,6 @@ input::placeholder {
     border: 2px solid #FFFFFF;
     background: $accentColor;
     color: #FFFFFF;
-  
-
   }
 }
 .shops__title {
@@ -123,4 +121,22 @@ input::placeholder {
   
 }
 
+@media (max-width: 1200px) {
+  .specials__block {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .specials__item {
+    margin-bottom: 20px;
+  }
+
+  .others {
+    flex-direction: column;
+  }
+
+  .subscribe {
+    margin-bottom: 20px;
+  }
+}
 

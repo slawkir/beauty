@@ -18,7 +18,8 @@ $darkColor: #333333;
 }
 
 .wrapper {
-  width: 57%;
+  // width: 57%;
+  width: 1110px;
   margin: 0 auto;
 }
 
@@ -28,4 +29,10 @@ $darkColor: #333333;
   background: #FFFFFF;
   border: 2px solid $accentColor;
   border-radius: 40px;
+}
+
+@media (max-width: 1120px) {
+  .wrapper {
+  width: 920px;
+}
 }

@@ -55,7 +55,7 @@ nav, main, footer, header, aside, section {
 }
 
 .wrapper {
-  width: 57%;
+  width: 1110px;
   margin: 0 auto;
 }
 
@@ -67,6 +67,11 @@ nav, main, footer, header, aside, section {
   border-radius: 40px;
 }
 
+@media (max-width: 1120px) {
+  .wrapper {
+    width: 920px;
+  }
+}
 .header__menu-top {
   background: #EFEFEF;
 }
@@ -178,28 +183,41 @@ nav, main, footer, header, aside, section {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.3);
   position: absolute;
-  left: 725px;
+  right: 336px;
   top: -117px;
 }
 
 .ellipse2 {
-  width: 584px;
-  height: 584px;
+  width: 677px;
+  height: 677px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.4);
   position: absolute;
-  left: 863px;
-  top: 20px;
+  right: 427px;
+  top: -37px;
 }
 
 .armchair {
   width: 584;
   height: 584px;
   position: absolute;
-  left: 863px;
+  right: 473px;
   top: 20px;
 }
 
+@media (max-width: 1200px) {
+  .ellipse1 {
+    right: 36px;
+  }
+
+  .ellipse2 {
+    right: 127px;
+  }
+
+  .armchair {
+    right: 173px;
+  }
+}
 .goods {
   background-color: #EFEFEF;
   min-height: 954px;
@@ -319,6 +337,24 @@ input::placeholder {
   font-style: 18px;
 }
 
+@media (max-width: 1200px) {
+  .specials__block {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .specials__item {
+    margin-bottom: 20px;
+  }
+
+  .others {
+    flex-direction: column;
+  }
+
+  .subscribe {
+    margin-bottom: 20px;
+  }
+}
 .first-line {
   height: 120px;
   display: flex;
