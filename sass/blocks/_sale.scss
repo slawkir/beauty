@@ -1,0 +1,62 @@
+.sale {
+  height: 605px;
+  background: $accentColor;
+  position: relative;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+  }
+}
+
+.sale__container {
+  height: 220px;
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content:space-between;
+}
+.sale__title {
+  font-size: 45px;
+  color: #FFFFFF;
+}
+.sale__text {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.sale__button {
+  @extend %bigButton;
+  background: $accentColor;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+
+}
+.ellipse1 {
+  width: 859px;
+  height: 859px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  left: 725px;
+  top: -117px;
+}
+.ellipse2 {
+  width: 584px;
+  height: 584px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 863px;
+  top: 20px;
+}
+
+.armchair {
+width: 584;
+height: 584px;
+position: absolute;
+left: 863px;
+top: 20px;
+}
+

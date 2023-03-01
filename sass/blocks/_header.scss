@@ -37,7 +37,7 @@
     height: 80px;
     }
 
-    span {
+    h1 {
       color: $accentColor;
       font-size: 36px;
       margin-left: 20px;
@@ -55,11 +55,7 @@
     }
 
     button {
-      width: 170px;
-      padding: 12px 26px;
-      background: #FFFFFF;
-      border: 2px solid $accentColor;
-      border-radius: 40px;
+     @extend %bigButton;
     }
   }  
 }
