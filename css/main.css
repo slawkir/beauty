@@ -199,4 +199,123 @@ nav, main, footer, header, aside, section {
   top: 20px;
 }
 
+.goods {
+  background-color: #EFEFEF;
+  height: 954px;
+  padding: 80px 0 133px 0;
+}
+
+.specials {
+  position: relative;
+}
+.specials .specials__delivery {
+  position: absolute;
+  right: 25px;
+  top: -20px;
+}
+.specials .specials__title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 38px;
+}
+.specials .specials__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.specials .specials__item {
+  width: 255px;
+  height: 363px;
+  padding: 25px 0;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.specials .specials__item__img {
+  width: 125px;
+  height: 166px;
+}
+.specials .specials__item__text {
+  font-size: 14px;
+  text-align: center;
+}
+.specials .specials__item__price {
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+}
+.specials .specials__item__button {
+  width: 130px;
+  height: 35px;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+  background: #66C05D;
+  border-radius: 30px;
+}
+
+.others {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.subscribe, .shops {
+  width: 540px;
+  height: 212px;
+  background: #66c05d;
+  color: #FFFFFF;
+}
+
+.subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 35px 45px 35px 40px;
+}
+
+.subscribe__form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscribe__title {
+  font-style: 18px;
+}
+
+input {
+  width: 225px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.shops {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 35px 325px 35px 40px;
+}
+.shops button {
+  width: 170px;
+  height: 35px;
+  border-radius: 30px;
+  border: 2px solid #FFFFFF;
+  background: #66c05d;
+  color: #FFFFFF;
+}
+
+.shops__title {
+  font-style: 18px;
+}
+
 /*# sourceMappingURL=main.css.map */
