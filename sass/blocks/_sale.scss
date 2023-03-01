@@ -2,6 +2,7 @@
   height: 605px;
   background: $accentColor;
   position: relative;
+  overflow: hidden;
   .wrapper {
     display: flex;
     align-items: center;

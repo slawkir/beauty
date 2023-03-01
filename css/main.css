@@ -59,7 +59,7 @@ nav, main, footer, header, aside, section {
   margin: 0 auto;
 }
 
-.header__row-middle .contacts button, .sale__button {
+.header__row-middle .contacts button, .sale__button, .contacts button {
   width: 170px;
   padding: 12px 26px;
   background: #FFFFFF;
@@ -139,6 +139,7 @@ nav, main, footer, header, aside, section {
   height: 605px;
   background: #66c05d;
   position: relative;
+  overflow: hidden;
 }
 .sale .wrapper {
   display: flex;
@@ -201,7 +202,7 @@ nav, main, footer, header, aside, section {
 
 .goods {
   background-color: #EFEFEF;
-  height: 954px;
+  min-height: 954px;
   padding: 80px 0 133px 0;
 }
 
@@ -316,6 +317,82 @@ input::placeholder {
 
 .shops__title {
   font-style: 18px;
+}
+
+.first-line {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.socials {
+  width: 236px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 205px;
+}
+.socials .socials__link {
+  width: 45px;
+}
+.socials .ellipse__youtube {
+  position: absolute;
+}
+.socials .youtube {
+  position: relative;
+  left: 12px;
+  top: 15px;
+}
+.socials .ellipse__vk {
+  position: absolute;
+}
+.socials .vk {
+  position: relative;
+  left: 8px;
+  top: 15px;
+}
+.socials .ellipse__facebook {
+  position: absolute;
+}
+.socials .facebook {
+  position: relative;
+  left: 16px;
+  top: 12px;
+}
+.socials .ellipse__instagram {
+  position: absolute;
+}
+.socials .instagram {
+  position: relative;
+  left: 11px;
+  top: 11px;
+}
+
+.adress {
+  display: inline-block;
+  width: 235px;
+  margin-right: 105px;
+}
+
+.contacts {
+  width: 337px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts a {
+  font-size: 16px;
+}
+
+.second-line {
+  height: 64px;
+  background: #EFEFEF;
+}
+.second-line .wrapper {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

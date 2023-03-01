@@ -1,0 +1,84 @@
+.first-line {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.socials {
+  width: 236px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 205px;
+
+
+  .socials__link {
+    width: 45px;
+  }
+
+  .ellipse__youtube {
+  position: absolute; 
+  }
+  .youtube {
+    position: relative;
+    left: 12px;
+    top: 15px;
+  }
+  
+  .ellipse__vk {
+    position: absolute; 
+  }
+  .vk {
+    position: relative;
+    left: 8px;
+    top: 15px;
+  }
+  .ellipse__facebook {
+    position: absolute; 
+  }
+  .facebook {
+    position: relative;
+    left: 16px;
+    top: 12px;
+  }
+  .ellipse__instagram {
+    position: absolute; 
+  }
+  .instagram {
+    position: relative;
+    left: 11px;
+    top: 11px;
+  }
+}
+
+
+
+.adress {
+  display: inline-block;
+  width: 235px;
+  margin-right: 105px;
+}
+
+.contacts {
+  width: 337px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    font-size: 16px;
+  }
+  button {
+   @extend %bigButton;
+  }
+}
+
+.second-line {
+  height: 64px;
+  background: $grayColor;
+  
+  .wrapper {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
